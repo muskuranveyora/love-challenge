@@ -68,7 +68,7 @@ export default function Welcome({ name, onStart }) {
             <span className="font-bold text-love-blushActive">
               hai complete kr inhe
             </span>{" "}
-            to unlock your final surprise.
+            jaldi jaldi😘
           </motion.p>
 
           <motion.p
