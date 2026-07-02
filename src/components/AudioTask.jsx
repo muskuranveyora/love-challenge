@@ -142,7 +142,7 @@ export default function AudioTask({ taskNum, emoji, title, hint, onComplete }) {
             {emoji}
           </div>
           <p className="font-script text-2xl text-love-muted mb-1">
-            Challenge {taskNum} of 5
+            Task {taskNum} of 5
           </p>
           <h2
             data-testid={TID.taskTitle(taskNum)}
