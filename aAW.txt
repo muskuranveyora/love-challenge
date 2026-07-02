@@ -1,0 +1,39 @@
+love-challenge/
+│
+├── public/
+│   └── favicon.svg
+│
+├── src/
+│   ├── assets/
+│   │
+│   ├── components/
+│   │   ├── AudioTask.jsx
+│   │   ├── FinalScreen.jsx
+│   │   ├── FloatingHearts.jsx
+│   │   ├── GiftReveal.jsx
+│   │   ├── GlassCard.jsx
+│   │   ├── HeartButton.jsx
+│   │   ├── PhotoTask.jsx
+│   │   ├── ProgressBar.jsx
+│   │   ├── TextTask.jsx
+│   │   └── Welcome.jsx
+│   │
+│   ├── constants/
+│   │   └── testIds.js
+│   │
+│   ├── lib/
+│   │   ├── confetti.js
+│   │   ├── sounds.js
+│   │   └── storage.js
+│   │
+│   ├── App.jsx
+│   ├── App.css
+│   ├── index.css
+│   └── main.jsx
+│
+├── index.html
+├── package.json
+├── tailwind.config.js
+├── postcss.config.js
+├── vite.config.js
+└── jsconfig.json
