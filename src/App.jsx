@@ -219,8 +219,8 @@ export default function App() {
               key="task-1"
               taskNum={1}
               emoji="📸"
-              title="Take your cutest selfie"
-              hint="No pressure, you're already gorgeous."
+              title="apna thopde ka photo chipka idhar"
+              hint="Mashallha app to wese bhi pyaari ho."
               onComplete={(p) => completeTask(1, p)}
             />
           )}
