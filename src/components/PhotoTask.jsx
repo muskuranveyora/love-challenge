@@ -71,7 +71,7 @@ export default function PhotoTask({ taskNum, emoji, title, hint, onComplete }) {
           <div className="text-5xl mb-2">{emoji}</div>
 
           <p className="font-script text-2xl text-love-muted mb-1">
-            Challenge {taskNum} of 5
+            Task {taskNum} of 5
           </p>
 
           <h2
