@@ -64,9 +64,9 @@ export default function Welcome({ name, onStart }) {
             transition={{ delay: 0.5 }}
             className="mt-5 font-body text-base sm:text-lg text-love-body leading-relaxed"
           >
-            Complete these{" "}
+            Sun bhadwi 5 task {" "}
             <span className="font-bold text-love-blushActive">
-              5 little challenges
+              hai complete kr inhe
             </span>{" "}
             to unlock your final surprise.
           </motion.p>
