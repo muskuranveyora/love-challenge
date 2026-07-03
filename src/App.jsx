@@ -230,8 +230,8 @@ export default function App() {
               key="task-2"
               taskNum={2}
               emoji="🌸"
-              title="Snap something that reminds you of me"
-              hint="The sky, a coffee, your favorite song's cover, anything."
+              title="Kuch aisa jise dekh ke tujhe meri yaad aati ho"
+              hint="Teri saari, ya teri mummy, kuch to hoga."
               onComplete={(p) => completeTask(2, p)}
             />
           )}
@@ -241,13 +241,13 @@ export default function App() {
               key="task-3"
               taskNum={3}
               emoji="💌"
-              title="Three things you genuinely like about me"
+              title="Teen aisi cheeje jo tujhe mere bare me acchi lagti ho "
               hint="At least three sentences. Be honest, be cheesy, be you."
               placeholder="1. I like... 2. I like... 3. I like..."
               mode="sentences"
               minSentences={3}
               initialValue={state.answers.task3}
-              buttonLabel="So thoughtful, continue"
+              buttonLabel="Accha cutie, continue"
               onComplete={(p) => completeTask(3, p)}
             />
           )}
@@ -257,7 +257,7 @@ export default function App() {
               key="task-4"
               taskNum={4}
               emoji="🎵"
-              title="Record a 15-second voice note"
+              title="Teri awaaz bhut pyaari hai sunana jara 15 sec ka voice note de"
               hint="Say anything. A joke, a confession, a song, your day."
               onComplete={(p) => completeTask(4, p)}
             />
@@ -268,7 +268,7 @@ export default function App() {
               key="task-5"
               taskNum={5}
               emoji="❤️"
-              title="One promise you'll keep"
+              title="Ek promise you'll keep"
               hint="For our friendship... or maybe something more 😉"
               placeholder="I promise that..."
               mode="chars"
